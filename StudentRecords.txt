@@ -1,0 +1,6370 @@
+Last login: Wed Nov 18 13:09:52 on ttys001
+devangsaini@Devangs-MacBook-Air ~ %  % mongosh "mongodb+srv://cluster0.zr60ofx.mongodb.net/" --apiVersion 1 --username devangsaini46_db_user
+fg: no current job
+devangsaini@Devangs-MacBook-Air ~ % mongosh "mongodb+srv://cluster0.zr60ofx.mongodb.net/" --apiVersion 1 --username devangsaini46_db_user
+Enter password: *******
+Current Mongosh Log ID:	6afd59b4a3a10381fbbde474
+Connecting to:		mongodb+srv://<credentials>@cluster0.zr60ofx.mongodb.net/?appName=mongosh+2.14.0
+Using MongoDB:		8.0.37 (API Version 1)
+Using Mongosh:		2.14.0
+mongosh 2.14.2 is available, run brew upgrade mongosh to update
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+Atlas atlas-xkwfeg-shard-0 [primary] test> use collegeDB
+switched to db collegeDB
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertOne({
+|   _id: 101,
+|   name: "Arun",
+|   dept: "CSE",
+|   marks: 78,
+|   scores: [
+|     { subject: "DBMS", mark: 85 },
+|     { subject: "Maths", mark: 70 }
+|   ]
+| })
+{ acknowledged: true, insertedId: 101 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertOne({
+|   _id: 101,
+|   name: "Another Arun",
+|   dept: "CSE",
+|   marks: 80,
+|   scores: [
+|     { subject: "DBMS", mark: 80 },
+|     { subject: "Maths", mark: 75 }
+|   ]
+| })
+MongoServerError: E11000 duplicate key error collection: collegeDB.students index: _id_ dup key: { _id: 101 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+|     scores: [
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+|     scores: [
+|       { subject: "DBMS", mark: 55 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+|     scores: [
+|       { subject: "DBMS", mark: 55 },
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.insertMany([
+|   {
+|     _id: 102,
+|     name: "Bala",
+|     dept: "IT",
+|     marks: 66,
+|     scores: [
+|       { subject: "DBMS", mark: 60 },
+|       { subject: "Maths", mark: 72 }
+|     ]
+|   },
+|   {
+|     _id: 103,
+|     name: "Chitra",
+|     dept: "CSE",
+|     marks: 91,
+|     scores: [
+|       { subject: "DBMS", mark: 95 },
+|       { subject: "Maths", mark: 87 }
+|     ]
+|   },
+|   {
+|     _id: 104,
+|     name: "Divya",
+|     dept: "ECE",
+|     marks: 72,
+|     scores: [
+|       { subject: "DBMS", mark: 55 },
+|       { subject: "Maths", mark: 89 }
+|     ]
+|   },
+|   {
+|     _id: 105,
+|     name: "Eswar",
+|     dept: "IT",
+|     marks: 84,
+|     scores: [
+|       { subject: "DBMS", mark: 88 },
+|       { subject: "Maths", mark: 80 }
+|     ]
+|   },
+|   {
+|     _id: 106,
+|     name: "Farah",
+|     dept: "CSE",
+|     marks: 59,
+|     scores: [
+|       { subject: "DBMS", mark: 45 },
+|       { subject: "Maths", mark: 73 }
+|     ]
+|   }
+| ])
+{
+  acknowledged: true,
+  insertedIds: { '0': 102, '1': 103, '2': 104, '3': 105, '4': 106 }
+}
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.find({
+|   dept: "CSE"
+| })
+[
+  {
+    _id: 101,
+    name: 'Arun',
+    dept: 'CSE',
+    marks: 78,
+    scores: [ { subject: 'DBMS', mark: 85 }, { subject: 'Maths', mark: 70 } ]
+  },
+  {
+    _id: 103,
+    name: 'Chitra',
+    dept: 'CSE',
+    marks: 91,
+    scores: [ { subject: 'DBMS', mark: 95 }, { subject: 'Maths', mark: 87 } ]
+  },
+  {
+    _id: 106,
+    name: 'Farah',
+    dept: 'CSE',
+    marks: 59,
+    scores: [ { subject: 'DBMS', mark: 45 }, { subject: 'Maths', mark: 73 } ]
+  }
+]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.find({
+|   marks: { $gte: 75 }
+| })
+[
+  {
+    _id: 101,
+    name: 'Arun',
+    dept: 'CSE',
+    marks: 78,
+    scores: [ { subject: 'DBMS', mark: 85 }, { subject: 'Maths', mark: 70 } ]
+  },
+  {
+    _id: 103,
+    name: 'Chitra',
+    dept: 'CSE',
+    marks: 91,
+    scores: [ { subject: 'DBMS', mark: 95 }, { subject: 'Maths', mark: 87 } ]
+  },
+  {
+    _id: 105,
+    name: 'Eswar',
+    dept: 'IT',
+    marks: 84,
+    scores: [ { subject: 'DBMS', mark: 88 }, { subject: 'Maths', mark: 80 } ]
+  }
+]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.find({
+|   marks: { $gte: 75 }
+| })
+[
+  {
+    _id: 101,
+    name: 'Arun',
+    dept: 'CSE',
+    marks: 78,
+    scores: [ { subject: 'DBMS', mark: 85 }, { subject: 'Maths', mark: 70 } ]
+  },
+  {
+    _id: 103,
+    name: 'Chitra',
+    dept: 'CSE',
+    marks: 91,
+    scores: [ { subject: 'DBMS', mark: 95 }, { subject: 'Maths', mark: 87 } ]
+  },
+  {
+    _id: 105,
+    name: 'Eswar',
+    dept: 'IT',
+    marks: 84,
+    scores: [ { subject: 'DBMS', mark: 88 }, { subject: 'Maths', mark: 80 } ]
+  }
+]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.find({
+|   dept: { $in: ["CSE", "IT"] }
+| })
+[
+  {
+    _id: 101,
+    name: 'Arun',
+    dept: 'CSE',
+    marks: 78,
+    scores: [ { subject: 'DBMS', mark: 85 }, { subject: 'Maths', mark: 70 } ]
+  },
+  {
+    _id: 102,
+    name: 'Bala',
+    dept: 'IT',
+    marks: 66,
+    scores: [ { subject: 'DBMS', mark: 60 }, { subject: 'Maths', mark: 72 } ]
+  },
+  {
+    _id: 103,
+    name: 'Chitra',
+    dept: 'CSE',
+    marks: 91,
+    scores: [ { subject: 'DBMS', mark: 95 }, { subject: 'Maths', mark: 87 } ]
+  },
+  {
+    _id: 105,
+    name: 'Eswar',
+    dept: 'IT',
+    marks: 84,
+    scores: [ { subject: 'DBMS', mark: 88 }, { subject: 'Maths', mark: 80 } ]
+  },
+  {
+    _id: 106,
+    name: 'Farah',
+    dept: 'CSE',
+    marks: 59,
+    scores: [ { subject: 'DBMS', mark: 45 }, { subject: 'Maths', mark: 73 } ]
+  }
+]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.find({
+|   scores: {
+|     $elemMatch: {
+|       subject: "DBMS",
+|       mark: { $gt: 80 }
+|     }
+|   }
+| })
+[
+  {
+    _id: 101,
+    name: 'Arun',
+    dept: 'CSE',
+    marks: 78,
+    scores: [ { subject: 'DBMS', mark: 85 }, { subject: 'Maths', mark: 70 } ]
+  },
+  {
+    _id: 103,
+    name: 'Chitra',
+    dept: 'CSE',
+    marks: 91,
+    scores: [ { subject: 'DBMS', mark: 95 }, { subject: 'Maths', mark: 87 } ]
+  },
+  {
+    _id: 105,
+    name: 'Eswar',
+    dept: 'IT',
+    marks: 84,
+    scores: [ { subject: 'DBMS', mark: 88 }, { subject: 'Maths', mark: 80 } ]
+  }
+]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> db.students.find(
+|   {},
+|   { _id: 0, name: 1, marks: 1 }
+| ).sort(
+|   { marks: -1 }
+| ).limit(3)
+[
+  { name: 'Chitra', marks: 91 },
+  { name: 'Eswar', marks: 84 },
+  { name: 'Arun', marks: 78 }
+]
+Atlas atlas-xkwfeg-shard-0 [primary] collegeDB> 
+
